@@ -1,0 +1,67 @@
+/* colors */
+:root{
+    --color1: #22577A;
+    --color2: #38A3A5;
+    --color3: #57CC99;
+    --color4: #80ED99;
+    --color5: #C7F9CC;
+    --color6: #ffffff;
+    --color7: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* hero section */
+.hero{
+    background-color: var(--color1);
+    height: 500px;
+}
+/* navbar */
+nav > ul > li{
+    list-style-type: none;
+    margin: 15px;
+}
+nav{
+    padding-right: 40px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: var(--color6);
+}
+nav > ul > li > a:active{
+    color: var(--color4);
+}
+nav > ul{
+    display: flex;
+    justify-content: flex-end;
+}
+/* hero text  */
+.hero-text{
+    color: var(--color6);
+    margin: 60px 0px 0px 40px;
+}
+.hero-text > h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero-text > p{
+    font-size: 18px;
+}
+/* cta(call to action buttons) */
+.cta-btn{
+    margin: 20px 0px 0px 40px;
+}
+.cta-btn > button{
+    margin-right: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: var(--color4);
+    color: var(--color7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cta-btn > button:hover{
+    background-color: var(--color5);
+}
