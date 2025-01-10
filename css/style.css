@@ -1,4 +1,4 @@
-/* colors */
+/* requirement-colors */
 :root{
     --color1: #22577A;
     --color2: #38A3A5;
@@ -8,60 +8,48 @@
     --color6: #ffffff;
     --color7: #000000;
 }
+/* universal selector */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
-
-/* hero section */
-.hero{
-    background-color: var(--color1);
-    height: 500px;
+/* ------------------------header section*/
+.header{
+    background-color: var(--color2) ;
 }
-/* navbar */
-nav > ul > li{
+/* --------navbar */
+.menu-item{
     list-style-type: none;
     margin: 15px;
-}
-nav{
     padding-right: 40px;
 }
-nav > ul > li > a{
+.anchor{
     text-decoration: none;
     color: var(--color6);
 }
-nav > ul > li > a:active{
+.anchor:active{
     color: var(--color4);
 }
-nav > ul{
+.nav-menu{
     display: flex;
-    justify-content: flex-end;
+    margin-left: 600px;
 }
-/* hero text  */
-.hero-text{
+.nav-bar{
+    display: flex;
+}
+/* --------image/logo */
+.nav-logo{
+    font-size: 30px;
+    padding: 4px 0px 0px 30px;;
+}
+.logo-p{
     color: var(--color6);
-    margin: 60px 0px 0px 40px;
 }
-.hero-text > h1{
-    font-size: 50px;
-    margin-bottom: 20px;
+/* ------------------------hero section*/
+.hero{
+    height: 500px;
+    background-color: var(--color3);
 }
-.hero-text > p{
-    font-size: 18px;
-}
-/* cta(call to action buttons) */
-.cta-btn{
-    margin: 20px 0px 0px 40px;
-}
-.cta-btn > button{
-    margin-right: 20px;
-    padding: 5px 10px 5px 10px;
-    background-color: var(--color4);
-    color: var(--color7);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.cta-btn > button:hover{
-    background-color: var(--color5);
-}
+
+
+
